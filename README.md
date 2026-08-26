@@ -43,3 +43,62 @@ Project Files
 Goal
 
 The goal is to use Python and data analysis techniques to understand the sales data and present the findings through clear visualizations and insights.
+
+Day 8 — Exploratory Data Analysis (EDA)
+
+Business Insights
+
+1. Sales are centered around ₹52,000: The mean Total Sales is approximately 51,633, while the median is approximately 51,873. This shows that typical sales are around the ₹52,000 level.
+
+2. Sales show considerable variation: Total Sales range from approximately 11,296 to 93,819, indicating significant differences in sales performance across observations.
+
+3. Quantity varies substantially: Total Quantity ranges from approximately 2,069 to 19,108, showing that the volume of products sold differs considerably across observations.
+
+4. Sales and quantity can be compared to understand business performance: The relationship visualization helps examine whether higher quantities are generally associated with higher sales.
+
+5. Potential anomalies require further investigation: The distribution and box plot reveal extreme observations that may represent unusual sales or quantity values. These should be investigated before making business decisions.
+
+EDA Learning Outcomes
+
+- Understood the purpose of Exploratory Data Analysis.
+- Learned to use Pandas for summary statistics.
+- Created distribution and relationship visualizations using Matplotlib and Seaborn.
+- Learned to identify patterns and potential anomalies.
+- Practiced communicating data-driven business insights.
+
+Day 9 — Data Cleaning & Preparation
+
+Cleaning Process
+
+The dataset was cleaned and prepared to improve data quality and ensure reliable analysis.
+
+Missing Values
+
+Missing values were identified using Pandas. Numeric missing values were handled using the median, while categorical/text missing values were handled using the mode.
+
+Duplicate Records
+
+Duplicate records were detected using "df.duplicated().sum()" and removed using "df.drop_duplicates()".
+
+Data Formats
+
+The "Date" column was converted from text to a proper datetime format using "pd.to_datetime()".
+
+Feature Creation
+
+Two useful features were created:
+
+- "Total_Sales" — total sales across all products.
+- "Total_Quantity" — total quantity across all products.
+
+Validation
+
+After cleaning, the dataset was checked again for missing values, duplicates, and correct data types.
+
+Output
+
+The final cleaned dataset was saved as:
+
+"cleaned_statsfinal.csv"
+
+The cleaning process improves the reliability and consistency of the dataset for further analysis and machine learning.

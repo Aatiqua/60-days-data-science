@@ -102,3 +102,34 @@ The final cleaned dataset was saved as:
 "cleaned_statsfinal.csv"
 
 The cleaning process improves the reliability and consistency of the dataset for further analysis and machine learning.
+
+## Day 10 — Feature Engineering
+
+### Objective
+
+Feature engineering was performed to prepare the cleaned dataset for machine learning.
+
+### Work Completed
+
+- Identified numerical and categorical features.
+- Applied one-hot encoding to categorical features.
+- Applied StandardScaler to numerical features.
+- Created two derived features:
+  - Sales_per_Quantity
+  - Sales_per_Product
+- Compared the dataset before and after feature engineering.
+- Checked the final dataset for missing values.
+
+### Model Readiness
+
+Before feature engineering, the dataset contained the original features, including categorical information.
+
+After feature engineering, categorical features were encoded into numerical values and numerical features were scaled. Two additional derived features were also created.
+
+Therefore, the resulting dataset is more suitable as input for machine learning models.
+
+### Output
+
+The feature-engineered dataset was saved as:
+
+feature_engineered_statsfinal.csv

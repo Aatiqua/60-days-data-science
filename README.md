@@ -133,3 +133,20 @@ Therefore, the resulting dataset is more suitable as input for machine learning 
 The feature-engineered dataset was saved as:
 
 feature_engineered_statsfinal.csv
+
+## Day 11 — Machine Learning Foundations
+
+### ML Workflow
+
+- Loaded the cleaned dataset.
+- Selected Total_Sales as the target variable.
+- Split the data into 80% training and 20% testing sets.
+- Used Linear Regression as the baseline algorithm.
+- Trained the model on the training data.
+- Generated predictions on the test data.
+- Evaluated prediction quality using MAE, RMSE, and R² Score.
+- Saved predictions in prediction_outputs.csv.
+
+### Output
+
+The prediction output contains actual and predicted Total Sales values for the test dataset.

@@ -188,3 +188,34 @@ The regression coefficients were examined to understand how the input features i
 - `regression_modeling.ipynb`
 - `regression_predictions.csv`
 - `regression_coefficients.csv`
+
+
+## Day 13 — Model Optimization
+
+### Objective
+
+The objective of this task was to understand overfitting and regularization by comparing Linear Regression, Ridge Regression, and Lasso Regression.
+
+### Models Used
+
+- **Linear Regression:** Used as the baseline model.
+- **Ridge Regression:** Uses L2 regularization to control large coefficients.
+- **Lasso Regression:** Uses L1 regularization and can reduce some coefficients toward zero.
+
+### Performance Comparison
+
+Training and testing R² and RMSE scores were calculated for all three models.
+
+A large difference between train and test performance may indicate overfitting. A smaller difference generally indicates better generalization.
+
+### Key Learning
+
+Regularization helps control model complexity and can improve a model's ability to generalize to unseen data.
+
+The comparison between Linear, Ridge, and Lasso Regression demonstrates how different regularization techniques affect model behavior.
+
+### Output
+
+The model comparison results were saved as:
+
+`model_comparison.csv`

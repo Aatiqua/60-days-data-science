@@ -66,7 +66,8 @@ EDA Learning Outcomes
 - Learned to identify patterns and potential anomalies.
 - Practiced communicating data-driven business insights.
 
-Day 9 — Data Cleaning & Preparation
+
+## Day 9 — Data Cleaning & Preparation
 
 Cleaning Process
 
@@ -103,6 +104,7 @@ The final cleaned dataset was saved as:
 
 The cleaning process improves the reliability and consistency of the dataset for further analysis and machine learning.
 
+
 ## Day 10 — Feature Engineering
 
 ### Objective
@@ -134,6 +136,7 @@ The feature-engineered dataset was saved as:
 
 feature_engineered_statsfinal.csv
 
+
 ## Day 11 — Machine Learning Foundations
 
 ### ML Workflow
@@ -150,3 +153,38 @@ feature_engineered_statsfinal.csv
 ### Output
 
 The prediction output contains actual and predicted Total Sales values for the test dataset.
+
+
+## Day 12 — Regression Modeling
+
+### Objective
+
+The objective of this task was to build a Linear Regression model to predict `Total_Sales` and understand relationships between input features and the target variable.
+
+### Work Completed
+
+- Prepared the dataset for regression modeling.
+- Selected `Total_Sales` as the target variable.
+- Split the dataset into training and testing sets.
+- Trained a Linear Regression model.
+- Generated predictions on the test data.
+- Evaluated the model using MAE, RMSE, and R² Score.
+- Created an Actual vs Predicted visualization.
+- Visualized prediction errors.
+- Analyzed the model coefficients.
+
+### Prediction Analysis
+
+The Actual vs Predicted plot was used to compare the model's predictions with the actual sales values.
+
+The prediction-error plot was used to identify unusual errors and patterns in the model's predictions.
+
+### Model Coefficients
+
+The regression coefficients were examined to understand how the input features influence predicted Total Sales.
+
+### Output Files
+
+- `regression_modeling.ipynb`
+- `regression_predictions.csv`
+- `regression_coefficients.csv`

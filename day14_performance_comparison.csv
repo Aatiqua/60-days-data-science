@@ -1,0 +1,3 @@
+Model,Feature_Set,R2_Score,RMSE
+Linear Regression,All Features,1.0,8.269709464013443e-08
+Linear Regression,Without S-P4,1.0,1.8928344341526092e-06

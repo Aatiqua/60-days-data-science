@@ -219,3 +219,33 @@ The comparison between Linear, Ridge, and Lasso Regression demonstrates how diff
 The model comparison results were saved as:
 
 `model_comparison.csv`
+
+
+## Day 14 — Sprint 2 Review
+
+### Real-World Feature Removal Challenge
+
+The most important feature identified during the analysis was `S-P4`.
+
+To simulate a real-world situation where an important feature becomes unavailable, `S-P4` was removed and the best-performing model from Day 13 was retrained.
+
+### Performance Comparison
+
+The model was evaluated before and after removing `S-P4` using:
+
+- R² Score
+- RMSE
+
+The results are available in `day14_performance_comparison.csv`.
+
+### Key Learning
+
+Removing an important feature can affect model performance because useful information is lost. Retraining allows the model to adapt to the remaining available features.
+
+This experiment demonstrated why real-world ML systems need to be flexible and capable of adapting when datasets or features change.
+
+### Sprint 2 Reflection
+
+Sprint 2 helped me understand the complete ML workflow, including regression, regularization, model evaluation, and feature removal.
+
+I learned that production ML systems must handle changing data and unexpected constraints rather than relying on fixed assumptions.

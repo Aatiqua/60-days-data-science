@@ -249,3 +249,35 @@ This experiment demonstrated why real-world ML systems need to be flexible and c
 Sprint 2 helped me understand the complete ML workflow, including regression, regularization, model evaluation, and feature removal.
 
 I learned that production ML systems must handle changing data and unexpected constraints rather than relying on fixed assumptions.
+
+
+## Day 15 — Classification Foundations
+
+### Objective
+
+Built a Logistic Regression classification model to predict whether customers are likely to churn.
+
+### Work Completed
+
+- Loaded a customer churn dataset
+- Identified the target variable `Churn`
+- Encoded categorical features
+- Split data into training and testing sets
+- Trained a Logistic Regression classifier
+- Generated predictions on unseen data
+- Evaluated accuracy, precision, recall and F1-score
+- Created a confusion matrix
+- Analyzed false positives and false negatives
+- Documented the business impact of prediction errors
+
+### Business Insight
+
+False negatives can be particularly costly in customer churn prediction because the business may fail to identify customers who are actually at risk of leaving.
+
+False positives can result in unnecessary retention efforts, discounts or offers.
+
+### Files
+
+- `classification_foundations.ipynb`
+- `churn_predictions.csv`
+- `confusion_matrix.png`

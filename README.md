@@ -281,3 +281,38 @@ False positives can result in unnecessary retention efforts, discounts or offers
 - `classification_foundations.ipynb`
 - `churn_predictions.csv`
 - `confusion_matrix.png`
+
+## Day 16 — Distance-Based Learning
+
+### Objective
+
+Built a movie recommendation system using the K-Nearest Neighbors (KNN) algorithm.
+
+### Work Completed
+
+- Created a movie recommendation dataset
+- Prepared numerical movie features
+- Applied feature scaling
+- Trained a KNN model
+- Experimented with different K values
+- Generated similarity-based movie recommendations
+- Compared recommendation distances
+- Selected K = 4 as the working value
+
+### Features Used
+
+- Action
+- SciFi
+- Romance
+- Adventure
+- Popularity
+
+### Key Learning
+
+KNN recommends items based on similarity and distance. Choosing an appropriate K value is important because it affects how many neighboring items influence the recommendations.
+
+### Files
+
+- `knn_recommendation.ipynb`
+- `movie_recommendations.csv`
+- `k_comparison.csv`

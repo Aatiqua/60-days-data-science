@@ -316,3 +316,30 @@ KNN recommends items based on similarity and distance. Choosing an appropriate K
 - `knn_recommendation.ipynb`
 - `movie_recommendations.csv`
 - `k_comparison.csv`
+
+# Day 17 — Decision Tree Learning
+
+## Objective
+Build a Decision Tree classifier for a real-world loan approval problem.
+
+## What I Did
+- Created a loan approval dataset
+- Prepared features and target variable
+- Split the dataset into training and testing sets
+- Trained a Decision Tree classifier
+- Visualized the Decision Tree
+- Analyzed feature importance
+- Checked training vs testing accuracy
+- Investigated potential overfitting
+- Explained how the model makes decisions
+
+## Real-World Application
+Decision Trees can be used by banks and financial institutions to support loan approval and risk assessment decisions.
+
+## Key Learning
+A Decision Tree makes predictions using a series of feature-based rules. Controlling the tree depth can help reduce overfitting.
+
+## Files
+- `decision_tree.ipynb`
+- `loan_approval.csv`
+- `loan_feature_importance.csv`

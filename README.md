@@ -343,3 +343,41 @@ A Decision Tree makes predictions using a series of feature-based rules. Control
 - `decision_tree.ipynb`
 - `loan_approval.csv`
 - `loan_feature_importance.csv`
+
+
+# Day 18 — Ensemble Learning: Random Forest for Fraud Detection
+
+## Objective
+Build a Random Forest classifier for detecting fraudulent transactions and compare it with a Decision Tree.
+
+## What I Did
+- Created a fraud detection dataset
+- Prepared features and target variable
+- Split the data into training and testing sets
+- Trained a Decision Tree classifier
+- Trained a Random Forest classifier
+- Compared model performance
+- Analyzed Random Forest feature importance
+- Tested model robustness using a different train-test split
+- Documented real-world fraud detection challenges
+
+## Real-World Impact
+Fraud detection systems help banks, payment gateways, and e-commerce platforms identify suspicious transactions and reduce financial losses.
+
+## Key Learning
+Random Forest is an ensemble learning technique that combines multiple Decision Trees. It can provide more robust predictions than a single Decision Tree.
+
+## Fraud Detection Challenges
+- Imbalanced fraud and legitimate transactions
+- Changing fraud patterns
+- False positives
+- False negatives
+- Large transaction volumes
+- Data security and privacy
+
+## Files
+- `random_forest_fraud_detection.ipynb`
+- `fraud_detection.csv`
+- `fraud_model_comparison.csv`
+- `fraud_feature_importance.csv`
+- `README.md`

@@ -1,0 +1,5 @@
+Feature,Importance
+TransactionFrequency,0.29
+TransactionAmount,0.25
+International,0.24
+AccountAge,0.22

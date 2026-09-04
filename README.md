@@ -381,3 +381,32 @@ Random Forest is an ensemble learning technique that combines multiple Decision 
 - `fraud_model_comparison.csv`
 - `fraud_feature_importance.csv`
 - `README.md`
+
+
+# Day 19 — Boosting Model Performance with XGBoost
+
+## Objective
+Explore Gradient Boosting and compare XGBoost with Random Forest for fraud detection.
+
+## What I Did
+- Installed and configured XGBoost
+- Loaded the fraud detection dataset
+- Trained a Random Forest classifier
+- Trained an XGBoost classifier
+- Compared training and testing performance
+- Analyzed accuracy, precision, recall and F1-score
+- Analyzed XGBoost feature importance
+- Studied boosting advantages and tradeoffs
+
+## Real-World Impact
+Gradient Boosting techniques are widely used for high-performance predictive modeling, including fraud detection and other business applications.
+
+## Key Learning
+XGBoost builds models sequentially, with later trees focusing on correcting errors made by earlier trees. This can produce strong predictive performance but requires careful parameter tuning.
+
+## Files
+- `xgboost_fraud_detection.ipynb`
+- `fraud_detection.csv`
+- `boosting_performance_comparison.csv`
+- `xgboost_feature_importance.csv`
+- `README.md`

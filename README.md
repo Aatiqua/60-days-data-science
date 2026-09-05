@@ -410,3 +410,52 @@ XGBoost builds models sequentially, with later trees focusing on correcting erro
 - `boosting_performance_comparison.csv`
 - `xgboost_feature_importance.csv`
 - `README.md`
+
+
+# Day 20 — Model Evaluation
+
+## Objective
+
+Evaluate classification models using multiple performance metrics instead of relying only on accuracy.
+
+## Models Evaluated
+
+- Decision Tree
+- Random Forest
+- XGBoost
+
+## Metrics Used
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- ROC-AUC
+
+## What I Did
+
+- Prepared the fraud detection dataset
+- Trained three classification models
+- Generated predictions and probabilities
+- Calculated multiple evaluation metrics
+- Created confusion matrices
+- Compared model strengths and weaknesses
+- Studied why accuracy can be misleading
+- Documented the importance of evaluation metrics in fraud detection
+
+## Why Accuracy Can Be Misleading
+
+Fraud datasets can be highly imbalanced. A model could achieve high accuracy by predicting most transactions as legitimate while still missing many fraudulent transactions.
+
+Therefore, precision, recall, F1-score, and ROC-AUC provide additional information about model performance.
+
+## Key Learning
+
+Model evaluation should be based on the actual business problem and the cost of different types of errors rather than relying on a single metric.
+
+## Files
+
+- `model_evaluation.ipynb`
+- `classification_metrics_comparison.csv`
+- `confusion_matrices.png`
+- `fraud_detection.csv`

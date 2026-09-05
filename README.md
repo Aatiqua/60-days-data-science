@@ -459,3 +459,57 @@ Model evaluation should be based on the actual business problem and the cost of 
 - `classification_metrics_comparison.csv`
 - `confusion_matrices.png`
 - `fraud_detection.csv`
+
+
+# Day 21 — Sprint Review & Model Selection
+
+## Objective
+
+Compare classification models and select the most suitable machine learning system for fraud detection.
+
+## Models Compared
+
+- Decision Tree
+- Random Forest
+- XGBoost
+
+## Evaluation Metrics
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- ROC-AUC
+
+## Work Completed
+
+- Trained three classification models
+- Evaluated their performance using multiple metrics
+- Created a final comparison table
+- Compared model strengths and weaknesses
+- Selected the best-performing model using F1-Score and ROC-AUC
+- Documented model selection reasoning
+- Wrote a Week 3 engineering reflection
+
+## Model Selection
+
+F1-Score was used as the primary metric because fraud detection requires a balance between precision and recall. ROC-AUC was used as an additional performance measure.
+
+## Engineering Considerations
+
+Model selection should consider:
+
+- Predictive performance
+- Interpretability
+- Robustness
+- Scalability
+- Business impact
+
+## Limitation
+
+The dataset used is small and intended for learning purposes. Results should not be considered production-level evidence.
+
+## Files
+
+- `week3_model_selection.ipynb`
+- `week3_model_comparison.csv`

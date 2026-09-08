@@ -1,0 +1,5 @@
+Grade Frequency Summary
+=======================
+A: 3
+B: 2
+C: 2

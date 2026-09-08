@@ -513,3 +513,32 @@ The dataset used is small and intended for learning purposes. Results should not
 
 - `week3_model_selection.ipynb`
 - `week3_model_comparison.csv`
+
+
+## Day 22 – Feature Encoding
+
+### Objective
+Convert categorical data into numerical features suitable for machine learning and compare Label Encoding with One-Hot Encoding.
+
+### Tasks Completed
+- Identified categorical columns in the Telco Customer Churn dataset.
+- Applied Label Encoding to categorical features.
+- Applied One-Hot Encoding to categorical features.
+- Compared dataset structure before and after encoding.
+- Trained Logistic Regression models using both encoding methods.
+- Compared model accuracy.
+- Analyzed the impact of encoding on model performance.
+
+### Files Created
+- `feature_encoding.ipynb`
+- `label_encoded_telco.csv`
+- `one_hot_encoded_telco.csv`
+- `encoding_performance_comparison.csv`
+
+### Key Learning
+Label Encoding represents categories using numerical values and keeps the dataset relatively compact, but it can introduce an artificial ordering between categories.
+
+One-Hot Encoding creates separate binary columns for categories. Although it increases the number of features, it is generally more suitable for nominal categorical variables.
+
+### Conclusion
+Feature encoding is an important part of machine learning preprocessing. The choice of encoding method can affect both dataset structure and model performance.

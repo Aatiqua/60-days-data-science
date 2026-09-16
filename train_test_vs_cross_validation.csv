@@ -1,0 +1,3 @@
+Evaluation Method,Accuracy,Standard Deviation
+Train-Test Split,0.8069552874378992,
+5-Fold Cross-Validation,0.8070409784502226,0.008869911402478914

@@ -610,3 +610,34 @@ The Logistic Regression model using the original standardized features was compa
 
 ### Conclusion
 PCA can significantly reduce the number of features while retaining important patterns in the dataset. Although reducing the data to two components improves simplicity and visualization, predictive performance may change because some information is discarded.
+
+
+## Day 25 – Cross-Validation
+
+### Objective
+Evaluate machine learning models more reliably by measuring their performance across multiple data splits using K-Fold Cross-Validation.
+
+### Tasks Completed
+- Created a train-test split for baseline evaluation.
+- Applied 5-Fold Cross-Validation.
+- Evaluated Logistic Regression, KNN, Decision Tree, and Random Forest models.
+- Calculated mean and standard deviation of cross-validation accuracy.
+- Compared train-test split performance with cross-validation results.
+- Analyzed model stability across different folds.
+- Created performance and stability visualizations.
+
+### Files Created
+- `cross_validation.ipynb`
+- `cross_validation_performance.png`
+- `model_stability.png`
+- `cross_validation_performance_comparison.csv`
+- `train_test_vs_cross_validation.csv`
+
+### Key Learning
+K-Fold Cross-Validation evaluates a model on multiple training and validation splits instead of relying on a single split. The mean score represents average performance, while the standard deviation shows how much the performance varies between folds.
+
+### Reliability Observations
+A lower standard deviation indicates more consistent model performance across different folds. Cross-validation therefore provides a more robust view of model reliability and generalization than a single train-test split.
+
+### Conclusion
+Cross-validation is an important model validation technique for assessing whether a machine learning model performs consistently on different subsets of data. It helps identify unstable models and provides a more reliable estimate of expected performance on unseen data.

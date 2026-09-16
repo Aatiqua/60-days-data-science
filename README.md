@@ -542,3 +542,36 @@ One-Hot Encoding creates separate binary columns for categories. Although it inc
 
 ### Conclusion
 Feature encoding is an important part of machine learning preprocessing. The choice of encoding method can affect both dataset structure and model performance.
+
+
+## Day 23 – Feature Selection
+
+### Objective
+Identify the most important features for predicting customer churn and reduce unnecessary features to simplify the machine learning model.
+
+### Tasks Completed
+- Analyzed feature correlations using a correlation matrix.
+- Calculated feature importance using Logistic Regression coefficients.
+- Identified the top 15 important features.
+- Selected the top 10 features for model training.
+- Trained a baseline model using all available features.
+- Trained another model using only the selected features.
+- Compared model performance before and after feature selection.
+- Created feature importance visualizations.
+- Saved feature importance and model comparison reports.
+
+### Files Created
+- `feature_selection.ipynb`
+- `feature_importance.csv`
+- `selected_features.csv`
+- `feature_selection_comparison.csv`
+- `feature_importance.png`
+
+### Key Learning
+Feature selection helps reduce model complexity by removing low-impact features. Using fewer relevant features can make machine learning models easier to interpret and may reduce unnecessary computation.
+
+### Important Note
+Feature importance based on Logistic Regression coefficients can be affected by the scale of numerical variables. Therefore, coefficient magnitude should be interpreted carefully.
+
+### Conclusion
+Feature selection is an important machine learning preprocessing step. Selecting relevant features can simplify a model while maintaining useful predictive information. The comparison between the baseline and selected-feature models shows how reducing the feature set affects prediction performance.

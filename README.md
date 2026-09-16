@@ -575,3 +575,38 @@ Feature importance based on Logistic Regression coefficients can be affected by 
 
 ### Conclusion
 Feature selection is an important machine learning preprocessing step. Selecting relevant features can simplify a model while maintaining useful predictive information. The comparison between the baseline and selected-feature models shows how reducing the feature set affects prediction performance.
+
+
+## Day 24 – Principal Component Analysis (PCA)
+
+### Objective
+Reduce the dimensionality of the Telco Customer Churn dataset using Principal Component Analysis while preserving useful information.
+
+### Tasks Completed
+- Prepared and encoded the dataset for PCA.
+- Standardized the feature values.
+- Applied PCA to reduce the feature space to 2 components.
+- Analyzed the explained variance ratio.
+- Visualized the transformed data using a 2D PCA plot.
+- Trained Logistic Regression using the original features.
+- Trained Logistic Regression using the 2 PCA components.
+- Compared model accuracy before and after PCA.
+- Created variance and performance comparison reports.
+
+### Files Created
+- `pca.ipynb`
+- `pca_2d_visualization.png`
+- `pca_performance_comparison.csv`
+- `pca_variance_analysis.csv`
+
+### Key Learning
+PCA is a dimensionality reduction technique that transforms a large number of correlated features into a smaller set of principal components. The first components capture the largest amount of variance in the data.
+
+### Variance Analysis
+The explained variance ratio shows how much information from the original dataset is retained by each principal component. The total explained variance of the two components was calculated and documented in the variance analysis report.
+
+### Performance Comparison
+The Logistic Regression model using the original standardized features was compared with a model using only the two PCA components. This demonstrates the trade-off between dimensionality reduction and predictive performance.
+
+### Conclusion
+PCA can significantly reduce the number of features while retaining important patterns in the dataset. Although reducing the data to two components improves simplicity and visualization, predictive performance may change because some information is discarded.

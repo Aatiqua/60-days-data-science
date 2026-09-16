@@ -1,0 +1,3 @@
+Model,Number of Features,Accuracy
+Logistic Regression - Original Features,30,0.8069552874378992
+Logistic Regression - PCA (2 Components),2,0.7679205110007097

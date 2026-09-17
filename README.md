@@ -641,3 +641,36 @@ A lower standard deviation indicates more consistent model performance across di
 
 ### Conclusion
 Cross-validation is an important model validation technique for assessing whether a machine learning model performs consistently on different subsets of data. It helps identify unstable models and provides a more reliable estimate of expected performance on unseen data.
+
+
+## Day 26 – Hyperparameter Tuning
+
+### Objective
+Optimize a machine learning model by systematically testing different hyperparameter combinations and comparing the tuned model with the untuned baseline.
+
+### Tasks Completed
+- Selected Random Forest as the model for optimization.
+- Created an untuned Random Forest baseline.
+- Defined a hyperparameter search grid.
+- Applied GridSearchCV with 5-fold cross-validation.
+- Tuned `n_estimators`, `max_depth`, `min_samples_split`, and `min_samples_leaf`.
+- Identified the best hyperparameter combination.
+- Evaluated the tuned model on the unseen test set.
+- Compared tuned and untuned model performance.
+- Analyzed the computational trade-offs of hyperparameter tuning.
+- Created a performance comparison visualization.
+
+### Files Created
+- `hyperparameter_tuning.ipynb`
+- `best_parameters_report.csv`
+- `hyperparameter_performance_comparison.csv`
+- `hyperparameter_tuning_comparison.png`
+
+### Key Learning
+Hyperparameters control how a machine learning algorithm learns from data. GridSearchCV systematically evaluates different combinations and uses cross-validation to identify a promising configuration.
+
+### Optimization Trade-offs
+Hyperparameter tuning can improve model performance, but testing more combinations increases computational time. Cross-validation also adds computation because each combination is evaluated across multiple folds.
+
+### Conclusion
+Hyperparameter tuning provides a systematic approach to improving machine learning models rather than relying only on default settings. The tuned Random Forest was compared with the untuned model using the same unseen test data.

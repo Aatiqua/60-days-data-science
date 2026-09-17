@@ -1,0 +1,3 @@
+Model,Accuracy
+Random Forest - Untuned,0.7863733144073811
+Random Forest - Tuned,0.8034066713981547

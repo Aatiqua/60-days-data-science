@@ -710,3 +710,45 @@ The learning curve was also used to observe how model performance changes as mor
 
 ### Conclusion
 The bias-variance analysis demonstrates why model complexity should be controlled to achieve better generalization. Comparing training and validation performance and using learning curves provides useful evidence about whether a model is underfitting, overfitting, or generalizing reasonably well.
+
+
+## Day 28 – Sprint Review & Optimization
+
+### Objective
+Combine preprocessing, feature engineering, validation, and hyperparameter tuning into a reproducible machine learning pipeline.
+
+### Tasks Completed
+- Combined numerical and categorical preprocessing into a single pipeline.
+- Applied imputation, scaling, and One-Hot Encoding.
+- Built a Random Forest classification pipeline.
+- Used 5-Fold Cross-Validation during hyperparameter tuning.
+- Applied GridSearchCV to optimize Random Forest parameters.
+- Evaluated the optimized pipeline on an unseen test set.
+- Compared baseline and optimized pipeline performance.
+- Evaluated Accuracy, Precision, Recall, F1 Score, and ROC-AUC.
+- Documented engineering and computational trade-offs.
+- Created a Week 4 optimization reflection.
+
+### Files Created
+- `optimized_ml_pipeline.ipynb`
+- `final_pipeline_performance_report.csv`
+- `optimized_pipeline_parameters.csv`
+- `pipeline_performance_comparison.png`
+
+### Key Learning
+A production-oriented machine learning workflow should combine preprocessing, validation, feature engineering, model training, and optimization into a reproducible pipeline.
+
+Using a pipeline helps keep preprocessing and modeling consistent and reduces the risk of applying different transformations during training and prediction.
+
+### Engineering Trade-offs
+The optimized workflow provides systematic validation and hyperparameter optimization, but cross-validation and GridSearchCV increase computational time.
+
+The final model was evaluated on an unseen test set to provide an independent performance measurement.
+
+### Week 4 Reflection
+Week 4 focused on improving model reliability, generalization, and performance through feature encoding, feature selection, PCA, cross-validation, hyperparameter tuning, and bias-variance analysis.
+
+Day 28 brought these concepts together into one reproducible machine learning workflow. This demonstrated how individual machine learning techniques can be combined to create a more structured and maintainable data science system.
+
+### Conclusion
+The sprint review demonstrated the importance of combining preprocessing, validation, optimization, and evaluation into a single machine learning workflow. This approach provides a foundation for building reproducible and production-oriented ML systems.

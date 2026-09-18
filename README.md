@@ -674,3 +674,39 @@ Hyperparameter tuning can improve model performance, but testing more combinatio
 
 ### Conclusion
 Hyperparameter tuning provides a systematic approach to improving machine learning models rather than relying only on default settings. The tuned Random Forest was compared with the untuned model using the same unseen test data.
+
+
+## Day 27 – Bias-Variance Tradeoff
+
+### Objective
+Understand the bias-variance tradeoff by comparing training and validation performance at different levels of model complexity.
+
+### Tasks Completed
+- Split the dataset into training and validation sets.
+- Trained Decision Tree models with different maximum depths.
+- Compared training accuracy with validation accuracy.
+- Identified possible signs of underfitting and overfitting.
+- Analyzed the gap between training and validation performance.
+- Created a bias-variance complexity visualization.
+- Created a learning curve to study model learning behavior.
+- Saved the analysis results for further comparison.
+
+### Files Created
+- `bias_variance.ipynb`
+- `bias_variance_complexity.png`
+- `learning_curve.png`
+- `learning_curve_data.csv`
+- `bias_variance_comparison.csv`
+
+### Key Learning
+The bias-variance tradeoff describes the balance between a model being too simple and too complex.
+
+A model with high bias may underfit the data, while a model with high variance may overfit the training data and perform less consistently on validation data.
+
+### Generalization Observations
+Training and validation performance were compared across different Decision Tree depths. Increasing model complexity can improve training performance, but a large gap between training and validation performance can indicate overfitting.
+
+The learning curve was also used to observe how model performance changes as more training data is provided.
+
+### Conclusion
+The bias-variance analysis demonstrates why model complexity should be controlled to achieve better generalization. Comparing training and validation performance and using learning curves provides useful evidence about whether a model is underfitting, overfitting, or generalizing reasonably well.

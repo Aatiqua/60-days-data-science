@@ -752,3 +752,48 @@ Day 28 brought these concepts together into one reproducible machine learning wo
 
 ### Conclusion
 The sprint review demonstrated the importance of combining preprocessing, validation, optimization, and evaluation into a single machine learning workflow. This approach provides a foundation for building reproducible and production-oriented ML systems.
+
+
+## Day 29 – Customer Segmentation
+
+### Objective
+Use unsupervised learning to identify hidden customer groups based on customer behavior.
+
+### Tasks Completed
+- Loaded the Telco customer behavior dataset.
+- Selected relevant numerical customer features.
+- Standardized the selected features.
+- Applied K-Means clustering.
+- Tested different cluster counts from K=2 to K=6.
+- Compared cluster quality using silhouette scores.
+- Selected the cluster count based on the highest silhouette score.
+- Visualized the resulting customer segments.
+- Analyzed the characteristics of each cluster.
+- Created a business insight report.
+
+### Features Used
+- `tenure`
+- `MonthlyCharges`
+- `TotalCharges`
+
+### Files Created
+- `customer_segmentation.ipynb`
+- `silhouette_scores.png`
+- `customer_segments.png`
+- `customer_segment_summary.csv`
+- `customer_segment_counts.csv`
+- `cluster_count_comparison.csv`
+- `business_insights.txt`
+
+### Key Learning
+K-Means clustering is an unsupervised learning technique that groups similar observations based on their feature values.
+
+The silhouette score was used to compare different numbers of clusters and assess how well the resulting groups were separated.
+
+### Business Impact
+Customer segmentation can help businesses understand different customer behavior patterns and support more targeted marketing, retention, and customer-service strategies.
+
+The cluster characteristics were analyzed using average tenure, monthly charges, total charges, and customer counts.
+
+### Conclusion
+Day 29 demonstrated how unsupervised learning can uncover customer segments without using a predefined target variable. K-Means provided a structured way to identify and visualize groups with different customer behavior patterns.

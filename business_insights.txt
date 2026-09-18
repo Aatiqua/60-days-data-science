@@ -1,0 +1,2 @@
+Cluster 0: Average tenure = 56.87 months, average monthly charges = $89.76, average total charges = $5084.99, customer count = 2360.
+Cluster 1: Average tenure = 20.07 months, average monthly charges = $52.19, average total charges = $868.07, customer count = 4672.

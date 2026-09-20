@@ -1,0 +1,11 @@
+FINAL BUSINESS SEGMENTATION STRATEGY
+==================================================
+
+Selected number of clusters: K=2
+Highest silhouette score: 0.4795
+
+Cluster 0: 2360 customers, average tenure 56.87 months, average monthly charges $89.76, average total charges $5084.99.
+Cluster 1: 4672 customers, average tenure 20.07 months, average monthly charges $52.19, average total charges $868.07.
+
+Business Application:
+The identified customer segments can support targeted marketing, retention, customer-service, and pricing strategies. The segment characteristics should be interpreted using the observed tenure and spending patterns rather than assuming customer behavior that is not represented in the data.

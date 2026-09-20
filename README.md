@@ -797,3 +797,51 @@ The cluster characteristics were analyzed using average tenure, monthly charges,
 
 ### Conclusion
 Day 29 demonstrated how unsupervised learning can uncover customer segments without using a predefined target variable. K-Means provided a structured way to identify and visualize groups with different customer behavior patterns.
+
+
+## Day 30 – Clustering Optimization
+
+### Objective
+Optimize customer segmentation by comparing different cluster counts using the Elbow Method and Silhouette Score.
+
+### Tasks Completed
+- Loaded the customer behavior dataset.
+- Selected relevant numerical features:
+  - `tenure`
+  - `MonthlyCharges`
+  - `TotalCharges`
+- Standardized the selected features.
+- Applied the Elbow Method for K values from 2 to 10.
+- Calculated Silhouette Scores for multiple K values.
+- Compared clustering quality across different cluster counts.
+- Selected the final K based on the highest Silhouette Score.
+- Trained the final optimized K-Means model.
+- Visualized the optimized customer segments.
+- Created a final segmentation strategy report.
+
+### Files Created
+- `clustering_optimization.ipynb`
+- `elbow_method.png`
+- `silhouette_optimization.png`
+- `optimized_customer_segments.png`
+- `clustering_optimization_results.csv`
+- `final_segmentation_strategy.csv`
+- `segmentation_strategy_report.txt`
+
+### Key Learning
+The Elbow Method evaluates how clustering inertia changes as the number of clusters increases. The Silhouette Score provides another measure of how well-separated and internally consistent the clusters are.
+
+Using both techniques provides a more structured approach to selecting a suitable number of customer segments.
+
+### Business Impact
+Customer segmentation can help businesses identify different customer behavior patterns and design more targeted marketing, retention, and customer-service strategies.
+
+The final strategy was based on observed differences in customer tenure and spending characteristics.
+
+### Engineering Trade-off
+Increasing the number of clusters can create more detailed customer groups, but excessive segmentation can make business strategies harder to interpret and manage.
+
+The final clustering configuration was selected using the observed clustering-quality metrics.
+
+### Conclusion
+Day 30 demonstrated how clustering can be optimized systematically instead of choosing the number of customer segments arbitrarily. Combining the Elbow Method, Silhouette Score, and business interpretation provides a more reproducible segmentation workflow.

@@ -845,3 +845,40 @@ The final clustering configuration was selected using the observed clustering-qu
 
 ### Conclusion
 Day 30 demonstrated how clustering can be optimized systematically instead of choosing the number of customer segments arbitrarily. Combining the Elbow Method, Silhouette Score, and business interpretation provides a more reproducible segmentation workflow.
+
+
+## Day 31 – Customer Persona Analysis
+
+### Objective
+Transform customer clusters into meaningful business personas and develop strategies for each customer group.
+
+### Work Completed
+- Analyzed customer clusters using tenure, MonthlyCharges, and TotalCharges.
+- Assigned business-friendly persona names.
+- Created a customer persona summary table.
+- Visualized tenure and spending patterns.
+- Compared average monthly charges across personas.
+- Developed business strategies for each persona.
+- Saved the persona analysis report and strategy recommendations.
+
+### Customer Personas
+
+#### 1. Loyal High-Value Customers
+- Longer customer relationship duration.
+- Higher average monthly charges.
+- Higher cumulative spending.
+- Strategy: Focus on loyalty rewards, personalized offers, and retention.
+
+#### 2. New/Low-Value Customers
+- Shorter customer relationship duration.
+- Lower average monthly charges.
+- Lower cumulative spending.
+- Strategy: Focus on onboarding, targeted promotions, and early retention efforts.
+
+### Business Impact
+Customer personas can help businesses design targeted retention campaigns, personalized promotions, and customer relationship strategies.
+
+### Files Created
+- `persona_analysis.ipynb`
+- `customer_persona_report.csv`
+- `business_strategy_recommendations.txt`

@@ -882,3 +882,40 @@ Customer personas can help businesses design targeted retention campaigns, perso
 - `persona_analysis.ipynb`
 - `customer_persona_report.csv`
 - `business_strategy_recommendations.txt`
+
+
+## Day 32 – Recommendation Systems
+
+### Objective
+Build a similarity-based recommendation system to personalize service suggestions using customer characteristics.
+
+### Work Completed
+- Prepared customer data for similarity analysis.
+- Used tenure, MonthlyCharges, and TotalCharges as similarity features.
+- Standardized customer features.
+- Calculated customer-to-customer similarity using cosine similarity.
+- Built a similarity-based recommendation engine.
+- Identified similar customers for a selected customer.
+- Generated service recommendations based on similar-customer patterns.
+- Evaluated recommendation relevance using similarity scores.
+- Documented personalization strategies.
+
+### Recommendation Approach
+The system uses customer similarity to identify customers with comparable tenure and spending patterns. Services commonly used by similar customers can then be considered as potential recommendations.
+
+### Business Impact
+Similarity-based recommendations can support:
+- Personalized service suggestions
+- Customer retention
+- Targeted promotions
+- Customer relationship management
+- More relevant service offerings
+
+### Files Created
+- `recommendation_system.ipynb`
+- `customer_similarity_recommendations.csv`
+- `service_recommendations.csv`
+- `personalization_strategy_report.txt`
+
+### Note
+The recommendation system is a demonstration based on the available telecom customer data. It recommends service options rather than purchased products because the dataset does not contain product-purchase history.

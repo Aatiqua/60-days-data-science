@@ -919,3 +919,39 @@ Similarity-based recommendations can support:
 
 ### Note
 The recommendation system is a demonstration based on the available telecom customer data. It recommends service options rather than purchased products because the dataset does not contain product-purchase history.
+
+
+## Day 33 – Anomaly Detection
+
+### Objective
+Identify unusual customer behavior patterns using anomaly detection techniques.
+
+### Work Completed
+- Loaded and prepared the Telco customer dataset.
+- Selected tenure, MonthlyCharges, and TotalCharges for analysis.
+- Standardized numerical features.
+- Applied Isolation Forest for anomaly detection.
+- Identified normal and anomalous customer patterns.
+- Visualized anomalies using a scatter plot.
+- Compared normal and anomalous customer behavior.
+- Documented possible business risks.
+
+### Anomaly Detection Approach
+Isolation Forest was used as an unsupervised learning technique to identify observations with unusual combinations of customer tenure and spending characteristics.
+
+### Business Impact
+Anomaly detection can help businesses:
+- Identify unusual spending patterns.
+- Monitor unexpected customer behavior.
+- Support fraud-risk investigation.
+- Detect operational risks.
+- Prioritize cases for further investigation.
+
+### Important Note
+An anomaly is not automatically fraud or suspicious activity. It represents a pattern that is unusual according to the anomaly detection model and may require additional investigation.
+
+### Files Created
+- `anomaly_detection.ipynb`
+- `anomaly_visualization.png`
+- `anomalous_customers.csv`
+- `business_risk_analysis.txt`

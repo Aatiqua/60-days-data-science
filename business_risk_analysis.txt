@@ -1,0 +1,10 @@
+BUSINESS RISK ANALYSIS - DAY 33
+============================================================
+
+1. Unusual spending patterns may require additional customer review.
+2. Customers with unusual tenure and charge combinations may represent unexpected behavior.
+3. Anomalies can help businesses identify cases that deserve further investigation.
+4. Anomaly detection can support monitoring of unusual customer activity and operational risks.
+
+Important Note:
+An anomaly is not automatically fraud or suspicious activity. It indicates an unusual pattern according to the Isolation Forest model.

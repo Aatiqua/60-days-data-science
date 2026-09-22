@@ -1,0 +1,10 @@
+BUSINESS INSIGHT SUMMARY - DAY 34
+============================================================
+
+1. The dataset contains 7,032 customers.
+2. 1,869 customers are recorded as churned.
+3. The overall churn rate is 26.58%.
+4. Average monthly charges are $64.80.
+5. Customer segments based on tenure provide a simple view of customer lifecycle stages.
+6. Churn rates by segment can help decision-makers identify groups that may require additional retention attention.
+7. The dashboard combines customer volume, churn, segmentation, spending, and tenure into one executive view.

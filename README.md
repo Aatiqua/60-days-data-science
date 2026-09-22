@@ -955,3 +955,37 @@ An anomaly is not automatically fraud or suspicious activity. It represents a pa
 - `anomaly_visualization.png`
 - `anomalous_customers.csv`
 - `business_risk_analysis.txt`
+
+
+## Day 34 – Business Intelligence Dashboard
+
+### Objective
+Build a business-friendly customer analytics dashboard for monitoring customer trends, churn, segmentation, and spending metrics.
+
+### Work Completed
+- Created an executive customer analytics dashboard.
+- Added KPI cards for key business metrics.
+- Visualized customer churn distribution.
+- Created customer segments based on tenure.
+- Analyzed churn rate by customer segment.
+- Visualized tenure versus monthly charges.
+- Created a business insight summary.
+- Documented dashboard storytelling and layout decisions.
+
+### Key Dashboard Metrics
+- Total Customers
+- Churned Customers
+- Churn Rate
+- Average Monthly Charges
+
+### Dashboard Insights
+The dashboard combines customer volume, churn, segmentation, tenure, and spending information into a single business-friendly view. This helps decision-makers quickly identify customer trends and groups that may require retention attention.
+
+### Dashboard Storytelling
+KPI cards are positioned first to provide a quick executive overview. Supporting charts then provide deeper information about churn, customer lifecycle segments, and spending patterns.
+
+### Files Created
+- `business_intelligence_dashboard.ipynb`
+- `executive_customer_dashboard.png`
+- `dashboard_business_insights.txt`
+- `dashboard_storytelling_decisions.txt`

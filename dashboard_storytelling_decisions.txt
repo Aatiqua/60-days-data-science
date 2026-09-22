@@ -1,0 +1,9 @@
+DASHBOARD STORYTELLING DECISIONS - DAY 34
+============================================================
+
+1. KPI cards were placed at the top to provide an immediate executive overview.
+2. Churn distribution was included to show the overall customer retention picture.
+3. Customer segmentation was included to show the distribution of customers across lifecycle stages.
+4. Churn rate by segment was included to help identify groups requiring retention attention.
+5. Tenure versus MonthlyCharges was included to connect customer relationship duration with spending.
+6. The dashboard uses simple charts and clear labels so that business users can interpret the information quickly.

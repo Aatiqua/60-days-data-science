@@ -1,0 +1,28 @@
+
+DAY 36 — FORECASTING OBSERVATIONS AND RISKS
+
+Forecasting Method:
+Moving-average baseline using the most recent 3 observations.
+
+Forecast Horizon:
+30 days.
+
+Baseline Forecast:
+217.00 customers per forecast period.
+
+Observations:
+- The historical customer series shows variation across tenure periods.
+- The rolling average helps smooth short-term fluctuations.
+- The baseline model provides a simple reference forecast.
+- The 30-day predictions remain constant because a moving-average
+  baseline does not model changing trends or seasonality.
+
+Risks and Limitations:
+- The Telco dataset does not contain actual historical dates.
+- Dates used in this exercise are an artificial time index.
+- Therefore, the forecast should be treated as a learning demonstration,
+  not as a real business prediction.
+- The baseline model does not explicitly capture seasonality,
+  holidays, campaigns, or external business factors.
+- Real forecasting should use genuine dated historical observations
+  and a model validated on time-based data.

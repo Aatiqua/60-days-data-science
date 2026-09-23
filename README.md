@@ -1026,3 +1026,44 @@ Week 5 helped transform individual analytics experiments into an integrated cust
 - `week5_integrated_customer_analytics.csv`
 - `week5_sprint_reflection.txt`
 - `week5_workflow_architecture.txt`
+
+
+## Day 36 – Time Series Forecasting
+
+### Objective
+Used historical customer data to demonstrate time series analysis and forecast future customer growth.
+
+### Tasks Completed
+- Loaded customer data
+- Created a time-based customer series
+- Visualized customer trends
+- Calculated a rolling average
+- Built a moving-average baseline forecasting model
+- Generated a 30-day customer forecast
+- Documented forecasting observations and risks
+
+### Forecasting Approach
+A moving-average baseline was used as a simple reference model. The forecast uses the average of the most recent observations.
+
+### Important Dataset Limitation
+The Telco dataset does not contain actual historical dates. Therefore, an artificial time index was created for this learning exercise. The resulting 30-day forecast should not be interpreted as a real business prediction.
+
+### Key Observations
+- Customer counts vary across the historical series.
+- Rolling averages help smooth short-term fluctuations.
+- The baseline forecast provides a simple reference point.
+- The baseline does not explicitly model seasonality or changing trends.
+
+### Risks
+- No genuine historical date information is available.
+- Seasonality and external business factors are not modeled.
+- A simple baseline may not capture complex growth patterns.
+- Real production forecasting should use dated historical data and time-based validation.
+
+### Day 36 Outputs
+- `day36_time_series_forecasting.ipynb`
+- `day36_customer_growth_trend.png`
+- `day36_customer_growth_rolling_average.png`
+- `day36_30_day_forecast.png`
+- `day36_30_day_customer_forecast.csv`
+- `day36_forecasting_observations_and_risks.txt`

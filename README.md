@@ -989,3 +989,40 @@ KPI cards are positioned first to provide a quick executive overview. Supporting
 - `executive_customer_dashboard.png`
 - `dashboard_business_insights.txt`
 - `dashboard_storytelling_decisions.txt`
+
+
+## Day 35 – Sprint Review & System Integration
+
+### Objective
+Integrated the major Week 5 analytics modules into one unified customer analytics workflow.
+
+### Components Integrated
+- Customer Segmentation
+- Customer Persona Analysis
+- Similarity-Based Recommendations
+- Anomaly Detection
+- Unified Business Intelligence Dashboard
+
+### Integrated Workflow
+
+Dataset → Data Preparation → Segmentation → Recommendations → Anomaly Detection → Unified Dashboard → Business Insights → Decision Support
+
+### Key Learning
+This sprint demonstrated how separate machine learning and analytics modules can be combined into a unified decision-support workflow.
+
+### Engineering Tradeoffs
+- K-Means provides interpretable customer segments but depends on the selected number of clusters.
+- Similarity-based recommendations depend on the features used to measure customer similarity.
+- Isolation Forest identifies unusual patterns, but an anomaly does not automatically mean fraud.
+- A unified dashboard improves visibility but increases implementation complexity.
+
+### Week 5 Reflection
+Week 5 helped transform individual analytics experiments into an integrated customer analytics system. The sprint strengthened understanding of machine learning integration, reusable preprocessing, recommendation systems, anomaly detection, and business intelligence.
+
+### Day 35 Outputs
+- `week5_integrated_analytics.ipynb`
+- `week5_unified_analytics_dashboard.png`
+- `week5_integrated_business_insights.txt`
+- `week5_integrated_customer_analytics.csv`
+- `week5_sprint_reflection.txt`
+- `week5_workflow_architecture.txt`

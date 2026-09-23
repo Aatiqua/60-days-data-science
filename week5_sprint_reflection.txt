@@ -1,0 +1,31 @@
+
+WEEK 5 SPRINT REFLECTION
+
+This week focused on integrating multiple machine learning
+and analytics components into one unified customer analytics
+workflow.
+
+Key components integrated:
+- Customer segmentation
+- Customer persona analysis
+- Similarity-based recommendations
+- Anomaly detection
+- Business intelligence dashboard
+
+Key learning:
+The main challenge was making independently developed
+analytics modules work together consistently. Reusing common
+features and preprocessing steps helped maintain consistency.
+
+Engineering tradeoffs:
+- K-Means provides simple and interpretable customer segments,
+  but the selected number of clusters affects the results.
+- Cosine similarity provides a simple recommendation approach,
+  but recommendations depend on the selected customer features.
+- Isolation Forest can identify unusual patterns efficiently,
+  but an anomaly does not automatically represent fraud or risk.
+- A unified dashboard improves decision-making visibility,
+  but it adds complexity compared with individual analyses.
+
+Overall, Week 5 transformed separate analytics experiments
+into a unified decision-support workflow.

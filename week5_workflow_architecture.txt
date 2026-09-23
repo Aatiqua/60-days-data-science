@@ -1,0 +1,33 @@
+
+WEEK 5 WORKFLOW ARCHITECTURE
+
+Dataset
+   |
+   v
+Data Preparation
+   |
+   +--> Customer Segmentation
+   |        |
+   |        v
+   |    Customer Personas
+   |
+   +--> Similarity Analysis
+   |        |
+   |        v
+   |    Recommendations
+   |
+   +--> Anomaly Detection
+            |
+            v
+      Unusual Patterns
+            |
+            +------------+
+                         |
+                         v
+               Unified Dashboard
+                         |
+                         v
+                 Business Insights
+                         |
+                         v
+                  Decision Support

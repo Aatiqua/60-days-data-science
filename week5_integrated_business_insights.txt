@@ -1,0 +1,21 @@
+
+WEEK 5 INTEGRATED ANALYTICS — BUSINESS INSIGHTS
+
+1. Total customers analyzed: 7032
+
+2. Loyal High-Value Customers: 2360
+
+3. New/Low-Value Customers: 4672
+
+4. Anomalous customers detected: 352
+
+5. Customer segmentation helps identify different customer groups.
+
+6. Similarity-based recommendations can support personalized
+   service recommendations.
+
+7. Anomaly detection helps identify unusual customer patterns
+   that may require further investigation.
+
+8. The unified dashboard brings segmentation, recommendations,
+   and anomaly detection into one decision-support workflow.

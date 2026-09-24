@@ -1067,3 +1067,58 @@ The Telco dataset does not contain actual historical dates. Therefore, an artifi
 - `day36_30_day_forecast.png`
 - `day36_30_day_customer_forecast.csv`
 - `day36_forecasting_observations_and_risks.txt`
+
+
+## Day 37 – Business Revenue Forecasting
+
+### Objective
+Used time-series modeling to demonstrate future business revenue forecasting with an ARIMA model.
+
+### Tasks Completed
+- Prepared a revenue time series
+- Visualized historical revenue patterns
+- Built an ARIMA(1,1,1) forecasting model
+- Compared predictions with historical observations
+- Validated the model using MAE and RMSE
+- Generated future revenue forecasts
+- Documented business implications and forecasting risks
+
+### Forecasting Model
+**ARIMA(1,1,1)** was used as the baseline time-series forecasting model.
+
+### Business Applications
+Revenue forecasting can support:
+- Financial planning
+- Resource allocation
+- Marketing planning
+- Investment decisions
+- Capacity planning
+- Revenue target setting
+
+### Important Dataset Limitation
+The Telco dataset does not contain actual transaction dates. `TotalCharges` was therefore used as a revenue proxy and an artificial monthly time index was created for this learning exercise.
+
+The forecast should not be interpreted as an actual company revenue prediction.
+
+### Forecast Accuracy
+Model performance was evaluated using:
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+
+Lower error values indicate smaller prediction errors on the validation period, although validation results do not guarantee future accuracy.
+
+### Risks
+- Artificial time index
+- Revenue proxy rather than verified dated revenue
+- No external business variables
+- No explicit modeling of promotions or economic conditions
+- Future conditions may differ from historical patterns
+
+### Day 37 Outputs
+- `day37_revenue_forecasting.ipynb`
+- `day37_historical_revenue_trend.png`
+- `day37_arima_revenue_forecast.png`
+- `day37_arima_validation.png`
+- `day37_revenue_forecast.csv`
+- `day37_forecast_accuracy.csv`
+- `day37_business_forecasting_report.txt`

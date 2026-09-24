@@ -1,0 +1,66 @@
+
+DAY 37 — BUSINESS REVENUE FORECASTING REPORT
+
+Objective
+---------
+The objective of this analysis was to demonstrate business
+revenue forecasting using an ARIMA time-series model.
+
+Data Preparation
+----------------
+TotalCharges from the Telco customer dataset was used as a
+revenue proxy. Customers were grouped by tenure and an
+artificial monthly time index was created.
+
+Forecasting Model
+-----------------
+Model: ARIMA(1,1,1)
+Forecast Horizon: 12 periods
+
+Model Validation
+----------------
+MAE: 417568.36
+RMSE: 715904.38
+
+Forecast Summary
+----------------
+Average historical revenue: 223002.34
+Average forecast revenue: 9590628.91
+Minimum forecast revenue: 3256121.23
+Maximum forecast revenue: 15923920.62
+
+Business Implications
+---------------------
+Revenue forecasts can support:
+- Financial planning
+- Resource allocation
+- Marketing planning
+- Investment decisions
+- Capacity planning
+- Revenue target setting
+
+Forecast Accuracy
+-----------------
+MAE and RMSE provide measures of the difference between actual
+and predicted revenue during validation. Lower values generally
+indicate smaller prediction errors on the validation period.
+
+Risks and Limitations
+---------------------
+1. The source dataset does not contain actual transaction dates.
+2. TotalCharges is used as a revenue proxy rather than verified
+   time-based company revenue.
+3. An artificial monthly index was created for this exercise.
+4. The ARIMA model does not include external business variables
+   such as promotions, pricing changes, economic conditions, or
+   seasonal events.
+5. Forecast accuracy can change when future business conditions
+   differ from historical patterns.
+
+Conclusion
+----------
+The ARIMA model demonstrates how historical time-series patterns
+can be used to generate future revenue estimates. In a real
+business environment, genuine dated revenue data and additional
+business variables should be used before making financial
+decisions.

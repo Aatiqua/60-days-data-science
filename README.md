@@ -1122,3 +1122,68 @@ Lower error values indicate smaller prediction errors on the validation period, 
 - `day37_revenue_forecast.csv`
 - `day37_forecast_accuracy.csv`
 - `day37_business_forecasting_report.txt`
+
+
+## Day 38 – Customer Retention Analytics & CLV
+
+### Objective
+Analyzed customer retention and estimated Customer Lifetime Value (CLV) to understand long-term customer business impact.
+
+### Tasks Completed
+- Calculated retention and churn metrics
+- Estimated Customer Lifetime Value
+- Identified high-value customer groups
+- Analyzed retention by customer tenure
+- Visualized retention and CLV patterns
+- Developed data-driven retention strategy recommendations
+
+### CLV Approach
+A simplified educational CLV estimate was calculated as:
+
+Estimated CLV = Monthly Charges × Average Customer Lifetime
+
+The estimate is a proxy and does not represent actual profit or realized future revenue.
+
+### Retention Metrics
+The analysis calculated:
+- Total customers
+- Retained customers
+- Churned customers
+- Retention rate
+- Churn rate
+- Average customer tenure
+
+### High-Value Customer Analysis
+Customers at or above the 75th percentile of estimated CLV were classified as **High-Value** customers.
+
+The analysis compared high-value and standard-value groups using:
+- Average monthly charges
+- Average tenure
+- Estimated CLV
+- Churn rate
+
+### Retention Analysis
+Retention rates were analyzed across different tenure groups to identify differences in customer retention patterns.
+
+### Business Strategies
+Potential strategies include:
+- Early-stage customer onboarding and engagement
+- Appropriate loyalty programs for high-CLV customers
+- Proactive churn-risk monitoring
+- Relevant long-term loyalty initiatives
+- Combining CLV, tenure, and churn information for retention analysis
+
+### Important Limitation
+CLV is estimated using available customer-level data and should not be interpreted as actual future profit. More accurate CLV modeling would require historical transactions, margins, acquisition costs, and customer-level purchase behavior.
+
+### Day 38 Outputs
+- `day38_customer_retention_clv.ipynb`
+- `day38_customer_clv_analysis.csv`
+- `day38_retention_metrics.csv`
+- `day38_clv_summary.csv`
+- `day38_retention_by_tenure.csv`
+- `day38_retention_vs_churn.png`
+- `day38_clv_distribution.png`
+- `day38_clv_group_comparison.png`
+- `day38_retention_by_tenure.png`
+- `day38_retention_strategy_report.txt`

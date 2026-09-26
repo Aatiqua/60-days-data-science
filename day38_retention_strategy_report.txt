@@ -1,0 +1,34 @@
+
+DAY 38 — CUSTOMER RETENTION STRATEGIES
+
+1. Early Customer Retention
+Focus on customers in the early-tenure groups with onboarding,
+support, and personalized engagement.
+
+2. High-Value Customer Retention
+High-CLV customers should receive appropriate loyalty programs,
+personalized offers, and proactive support.
+
+3. Churn Risk Monitoring
+Monitor customers with high charges or shorter tenure because
+these characteristics can be useful for identifying groups
+that require further retention analysis.
+
+4. Long-Term Loyalty
+Customers with longer tenure can be encouraged to remain loyal
+through relevant rewards and service improvements.
+
+5. Data-Driven Retention
+Use CLV, tenure, churn behavior, and customer characteristics
+together rather than relying on a single metric.
+
+Highest observed churn group in this analysis:
+0–12 Months
+
+Highest observed retention group in this analysis:
+49–72 Months
+
+Important:
+These recommendations are analytical suggestions based on the
+available dataset. They do not establish that a particular
+strategy will cause retention to increase.

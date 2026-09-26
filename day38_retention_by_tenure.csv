@@ -1,0 +1,5 @@
+tenure,CustomerCount,ChurnRate,RetentionRate
+0–12 Months,2175,47.68,52.32
+13–24 Months,1024,28.71,71.29
+25–48 Months,1594,20.39,79.61
+49–72 Months,2239,9.51,90.49

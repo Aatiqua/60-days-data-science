@@ -1,0 +1,7 @@
+
+The experiment group showed a higher conversion rate than the control
+group, and the difference was statistically significant.
+
+Business Recommendation:
+The experiment can be considered for further rollout, while monitoring
+business impact and validating the result with additional testing.

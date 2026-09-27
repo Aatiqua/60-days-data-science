@@ -1,0 +1,39 @@
+
+DAY 40 — A/B TESTING ANALYTICS REPORT
+=====================================
+
+EXPERIMENT DESIGN
+-----------------
+Control Group Users: 1000
+Experiment Group Users: 1000
+
+CONTROL GROUP
+-------------
+Conversions: 100
+Conversion Rate: 10.00%
+
+EXPERIMENT GROUP
+----------------
+Conversions: 131
+Conversion Rate: 13.10%
+
+PERFORMANCE CHANGE
+------------------
+Absolute Difference: 3.10 percentage points
+Relative Improvement: 31.00%
+
+STATISTICAL TEST
+----------------
+Test: Two-Proportion Z-Test
+Significance Level: 0.05
+Z-statistic: -2.1687
+P-value: 0.030103
+Result: Statistically significant
+
+BUSINESS INTERPRETATION
+-----------------------
+The experiment group was compared with the control group using
+conversion rate and a two-proportion statistical significance test.
+
+The statistical result should be considered together with practical
+business impact before making a final product or marketing decision.

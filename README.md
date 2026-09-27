@@ -1238,3 +1238,44 @@ The Telco dataset does not contain a true historical business date field. Theref
 - `day39_customer_tenure_trend.png`
 - `day39_churn_tenure_trend.png`
 - `day39_executive_business_insights.txt`
+
+
+## Day 40 – A/B Testing Analytics
+
+### Objective
+Build an A/B testing and experimentation system to compare a control group with an experiment group and evaluate statistical significance.
+
+### Experiment Design
+A simulated dataset was created with:
+- Control Group: 1,000 users
+- Experiment Group: 1,000 users
+- Conversion outcome: Converted / Not Converted
+
+### Analysis Performed
+- Calculated control and experiment conversion rates
+- Measured absolute conversion-rate difference
+- Calculated relative improvement
+- Applied a two-proportion z-test
+- Calculated statistical significance using p-value
+- Visualized experiment outcomes
+- Generated a business recommendation
+
+### Statistical Method
+A two-proportion z-test was used with a significance level of 0.05.
+
+### Business Interpretation
+The experiment result was evaluated using both conversion-rate performance and statistical significance. Statistical significance alone does not guarantee practical business value, so business impact should also be considered.
+
+### Visualizations
+- A/B conversion rate comparison
+- Conversion count comparison
+
+### Output Files
+- `day40_ab_conversion_rates.png`
+- `day40_ab_conversion_counts.png`
+- `day40_experiment_analysis_report.txt`
+- `day40_statistical_significance.csv`
+- `day40_business_recommendation.txt`
+
+### Limitation
+The experiment dataset was simulated for learning purposes. The results should not be interpreted as evidence about a real customer population or real product decision.

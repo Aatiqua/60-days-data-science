@@ -1,0 +1,8 @@
+Metric,Value
+Control Conversion Rate,10.0
+Experiment Conversion Rate,13.1
+Absolute Difference,3.1
+Relative Improvement,31.0
+Z-Statistic,-2.168736
+P-Value,0.030103
+Significance Level,0.05

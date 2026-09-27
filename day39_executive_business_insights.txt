@@ -1,0 +1,39 @@
+
+DAY 39 — BUSINESS KPI ANALYTICS REPORT
+======================================
+
+CUSTOMER PERFORMANCE
+--------------------
+Total Customers: 7032
+Active Customers: 5163
+Churned Customers: 1869
+Retention Rate: 73.42%
+Churn Rate: 26.58%
+Average Tenure: 32.42 months
+
+REVENUE PERFORMANCE
+-------------------
+Total Monthly Revenue: 455661.00
+Average Monthly Charge: 64.80
+Total Customer Revenue: 16056168.70
+Average Customer Revenue: 2283.30
+
+TENURE KPI ANALYSIS
+-------------------
+Highest observed churn rate occurs at:
+1 months
+Churn Rate: 61.99%
+
+Lowest observed churn rate occurs at:
+72 months
+Churn Rate: 1.66%
+
+EXECUTIVE INSIGHTS
+------------------
+1. Customer retention and churn should be monitored as core business KPIs.
+2. Revenue KPIs help track the financial contribution of the customer base.
+3. Tenure-based churn analysis can help identify periods where retention
+   monitoring may need additional attention.
+4. Customer and revenue KPIs should be reviewed together rather than
+   independently.
+5. KPI dashboards can support regular business performance monitoring.

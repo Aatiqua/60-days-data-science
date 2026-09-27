@@ -1187,3 +1187,54 @@ CLV is estimated using available customer-level data and should not be interpret
 - `day38_clv_group_comparison.png`
 - `day38_retention_by_tenure.png`
 - `day38_retention_strategy_report.txt`
+
+
+## Day 39 – Business KPI Analytics
+
+### Objective
+Build a Business KPI monitoring system to track customer, revenue, and retention performance.
+
+### KPIs Defined
+- Total Customers
+- Active Customers
+- Churned Customers
+- Retention Rate
+- Churn Rate
+- Average Customer Tenure
+- Total Monthly Revenue
+- Average Monthly Charge
+- Total Customer Revenue
+- Average Customer Revenue
+
+### Analysis Performed
+- Calculated customer intelligence KPIs
+- Calculated revenue performance KPIs
+- Calculated retention and churn metrics
+- Created an executive KPI dashboard
+- Analyzed customer trends by tenure
+- Analyzed churn trends by tenure
+- Generated executive-level business insights
+
+### Visualizations
+- Customer status KPI
+- Revenue KPI
+- Retention vs Churn
+- Executive KPI dashboard
+- Customer tenure trend
+- Churn rate by tenure
+
+### Business Insights
+The KPI system provides a consolidated view of customer health, revenue performance, and retention. Combining these metrics can help businesses monitor performance and identify areas requiring further investigation.
+
+### Limitation
+The Telco dataset does not contain a true historical business date field. Therefore, tenure-based analysis is used for trend exploration rather than representing actual time-series business performance.
+
+### Output Files
+- `day39_business_kpi_report.csv`
+- `day39_customer_kpi.png`
+- `day39_revenue_kpi.png`
+- `day39_retention_churn_kpi.png`
+- `day39_executive_kpi_dashboard.png`
+- `day39_customer_tenure_trend.png`
+- `day39_churn_tenure_trend.png`
+- `day39_executive_business_insights.txt`

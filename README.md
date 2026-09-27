@@ -1279,3 +1279,31 @@ The experiment result was evaluated using both conversion-rate performance and s
 
 ### Limitation
 The experiment dataset was simulated for learning purposes. The results should not be interpreted as evidence about a real customer population or real product decision.
+
+
+## Day 41 – Predictive Business Analytics
+
+### Objective
+Build a predictive customer risk system that combines customer behavior, churn prediction, and risk scoring to support proactive retention.
+
+### Analysis Performed
+- Prepared customer behavior features
+- Built a Logistic Regression churn-risk model
+- Calculated individual customer churn probabilities
+- Classified customers into Low, Medium, and High Risk
+- Ranked customers by estimated churn probability
+- Evaluated model performance using Accuracy, Precision, Recall, and ROC-AUC
+- Created risk distribution and high-risk customer visualizations
+- Generated retention recommendations
+
+### Risk Scoring
+Customer churn probability was used as the primary risk score:
+- High Risk: probability >= 70%
+- Medium Risk: probability between 40% and 70%
+- Low Risk: probability < 40%
+
+### Business Application
+The risk ranking can help prioritize retention resources. High-risk customers can receive proactive monitoring and targeted retention efforts, while medium-risk customers can receive targeted engagement.
+
+### Limitation
+The model uses a limited set of behavioral features from the Telco dataset. Risk scores are model estimates, not certain predictions. The dataset is also not a live business dataset, so the system should be retrained and validated with newer real-world data

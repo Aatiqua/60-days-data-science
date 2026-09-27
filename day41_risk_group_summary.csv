@@ -1,0 +1,4 @@
+RiskLevel,CustomerCount,AverageChurnProbability,AverageTenure,AverageMonthlyCharges
+High Risk,222,74.09,4.24,95.07
+Low Risk,5079,15.13,41.14,59.13
+Medium Risk,1731,54.26,10.46,77.56

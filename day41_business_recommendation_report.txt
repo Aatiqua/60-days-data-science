@@ -1,0 +1,47 @@
+
+DAY 41 — PREDICTIVE CUSTOMER RISK REPORT
+========================================
+
+RISK DISTRIBUTION
+-----------------
+High Risk Customers: 222
+Medium Risk Customers: 1731
+Low Risk Customers: 5079
+
+MODEL PERFORMANCE
+-----------------
+Accuracy: 0.7747
+Precision: 0.6059
+Recall: 0.4358
+ROC-AUC: 0.8111
+
+RETENTION STRATEGIES
+--------------------
+
+HIGH-RISK CUSTOMERS
+- Prioritize proactive retention outreach.
+- Review service issues and customer experience.
+- Consider personalized offers where appropriate.
+- Monitor these customers closely.
+
+MEDIUM-RISK CUSTOMERS
+- Use targeted engagement campaigns.
+- Monitor changes in usage and charges.
+- Provide relevant service and support options.
+
+LOW-RISK CUSTOMERS
+- Maintain regular engagement.
+- Encourage long-term loyalty.
+- Monitor their risk scores for future changes.
+
+BUSINESS INTERPRETATION
+-----------------------
+The predictive system ranks customers according to estimated churn
+probability. Risk scores can help prioritize retention resources,
+but they should be treated as model estimates rather than certain
+predictions of future customer behavior.
+
+RECOMMENDATION
+--------------
+Use the risk ranking as a decision-support tool and periodically
+retrain and validate the model using newer customer data.

@@ -1363,4 +1363,76 @@ revenue planning, and executive-level decision-making.
 ### Week 6 Learning
 Week 6 focused on moving from individual analytics models toward an
 integrated decision-support system. The project demonstrated how
-machine learning, forecasting, KPI tracking,
+machine learning, forecasting, KPI tracking.
+
+
+## Day 43 – Machine Learning Model Deployment
+
+### Objective
+Deploy a machine learning customer churn model as a real-time API
+using FastAPI.
+
+### Model
+- Model: Logistic Regression
+- Features: Tenure, Monthly Charges, Total Charges
+- Preprocessing: StandardScaler
+- Target: Customer Churn
+
+### API Endpoints
+
+#### GET `/`
+Checks whether the API is running.
+
+#### POST `/predict`
+Accepts customer information and returns:
+- Churn prediction
+- Churn probability
+- Risk level
+
+### API Workflow
+
+Customer Data
+↓
+FastAPI Request
+↓
+Data Validation
+↓
+Feature Scaling
+↓
+Logistic Regression Model
+↓
+Churn Probability
+↓
+Risk Classification
+↓
+API Response
+
+### API Testing
+The API was tested using FastAPI Swagger UI at:
+
+`http://127.0.0.1:8000/docs`
+
+A sample customer request was submitted and the API successfully
+returned a churn prediction and risk level.
+
+### Day 43 Outputs
+- `day43_model_deployment.ipynb`
+- `day43_api.py`
+- `day43_churn_model.pkl`
+- `day43_scaler.pkl`
+- `day43_api_documentation.md`
+- `day43_api_architecture.png`
+- `day43_linkedin_reflection.txt`
+
+### Real-World Impact
+Deploying ML models as APIs allows business applications to request
+real-time predictions for customer analytics, retention systems,
+recommendation platforms, and other decision-support applications.
+
+### Limitations
+The deployed model uses a limited set of customer features and is
+intended as a project demonstration. Production deployment would
+require additional validation, monitoring, security, and updated
+real-world data.
+
+

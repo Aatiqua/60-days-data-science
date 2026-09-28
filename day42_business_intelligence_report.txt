@@ -1,0 +1,70 @@
+
+DAY 42 - INTEGRATED BUSINESS INTELLIGENCE REPORT
+================================================
+
+1. EXECUTIVE SUMMARY
+--------------------
+This project integrates customer KPIs, retention and CLV analytics,
+predictive churn risk scoring, and revenue forecasting into a unified
+business intelligence workflow.
+
+2. KEY BUSINESS METRICS
+-----------------------
+Total Customers: 7032
+Active Customers: 5163
+Churned Customers: 1869
+Retention Rate: 73.42%
+Churn Rate: 26.58%
+Monthly Revenue: 455661.00
+Average Monthly Charge: 64.80
+Average Tenure: 32.42 months
+
+3. CUSTOMER VALUE
+-----------------
+Average Estimated CLV: 2100.87
+High-Value Customers: 1758
+
+CLV is used as an educational proxy based on monthly charges and
+average tenure. It should not be interpreted as actual profit.
+
+4. PREDICTIVE RISK
+------------------
+High-Risk Customers: 222
+
+The predictive module estimates customer churn probability using
+tenure, monthly charges, and total charges.
+
+5. FORECASTING
+--------------
+Revenue Forecast Proxy: 1210400.85
+
+The forecasting component uses a tenure-based revenue proxy.
+The dataset does not contain actual transaction dates, so this is
+a learning-oriented forecasting demonstration rather than a true
+time-series business forecast.
+
+6. BUSINESS INTELLIGENCE IMPACT
+-------------------------------
+The integrated workflow helps decision-makers:
+- Monitor customer and revenue KPIs
+- Identify high-value customers
+- Identify customers with higher estimated churn risk
+- Understand retention patterns
+- Support revenue planning
+- Combine multiple analytics modules in one decision-support workflow
+
+7. KEY TRADE-OFFS
+-----------------
+Predictive risk scores depend on the available features and should
+be validated with newer real-world customer data.
+
+CLV is an estimated proxy rather than a complete profitability model.
+
+Forecasting is limited because the dataset does not contain actual
+historical dates or transaction-level revenue records.
+
+8. CONCLUSION
+-------------
+Day 42 demonstrates how separate analytics modules can be integrated
+into a centralized business intelligence workflow for executive
+decision support.

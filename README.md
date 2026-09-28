@@ -1307,3 +1307,60 @@ The risk ranking can help prioritize retention resources. High-risk customers ca
 
 ### Limitation
 The model uses a limited set of behavioral features from the Telco dataset. Risk scores are model estimates, not certain predictions. The dataset is also not a live business dataset, so the system should be retrained and validated with newer real-world data
+
+
+## Day 42 – Integrated Business Intelligence
+
+### Objective
+Integrate forecasting, KPI analytics, customer retention, CLV analysis,
+and predictive customer risk into a unified Business Intelligence workflow.
+
+### Key Work
+- Integrated customer KPI analytics
+- Integrated retention and CLV analytics
+- Added predictive churn risk scoring
+- Added revenue forecasting proxy
+- Created an executive BI dashboard
+- Designed the BI architecture workflow
+- Generated an integrated business intelligence report
+- Documented Week 6 learning and insights
+
+### Business Intelligence Workflow
+
+Customer Data
+↓
+Data Preparation
+↓
+├── KPI Analytics
+├── Retention & CLV Analytics
+├── Predictive Risk Scoring
+└── Revenue Forecasting
+↓
+Executive BI Dashboard
+↓
+Business Decision Support
+
+### Key Outputs
+- `day42_integrated_business_intelligence.ipynb`
+- `day42_integrated_bi_summary.csv`
+- `day42_executive_bi_dashboard.png`
+- `day42_bi_architecture.png`
+- `day42_business_intelligence_report.txt`
+- `day42_week6_reflection.txt`
+
+### Business Impact
+The integrated BI workflow combines multiple analytics components
+to support customer monitoring, retention analysis, risk identification,
+revenue planning, and executive-level decision-making.
+
+### Limitations
+- CLV is an educational estimated proxy, not actual profit-based CLV.
+- Churn risk depends on a limited set of customer features.
+- The dataset does not contain actual historical dates, so the
+  forecasting component is a learning-oriented revenue proxy.
+- Real-world deployment would require newer and richer business data.
+
+### Week 6 Learning
+Week 6 focused on moving from individual analytics models toward an
+integrated decision-support system. The project demonstrated how
+machine learning, forecasting, KPI tracking,

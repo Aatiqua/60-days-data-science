@@ -1,0 +1,32 @@
+
+WEEK 6 REFLECTION
+=================
+
+This week focused on transforming individual data science models into
+an integrated business intelligence workflow.
+
+I worked with customer KPIs, retention analytics, CLV estimation,
+predictive churn risk scoring, revenue forecasting, and executive
+dashboard visualization.
+
+The most important learning was understanding how different analytics
+modules can work together to support business decision-making rather
+than operating as separate models.
+
+I also learned that real-world analytics requires understanding the
+limitations of the available data. For example, the dataset used in
+this project does not contain actual historical dates, so the
+forecasting component is a learning-oriented proxy rather than a
+production forecasting system.
+
+The predictive risk model also depends on a limited set of customer
+features, which means its results should be validated with richer and
+more recent business data before making operational decisions.
+
+Overall, Week 6 improved my understanding of how data science,
+predictive analytics, forecasting, visualization, and business
+intelligence can be combined into one decision-support workflow.
+
+The project helped me move from building individual machine learning
+models toward thinking about complete analytics systems and their
+real-world business applications.
